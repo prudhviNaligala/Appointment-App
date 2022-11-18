@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.list-container {
+  list-style-type: none;
+}
+.border-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 8px;
+  background-color: transparent;
+  width: 300px;
+  height: 90px;
+  border: 1px solid #b5b7c4;
+  padding: 15px;
+}
+.title-star {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.star-button {
+  background: transparent;
+  padding: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.star {
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  align-self: center;
+  border: none;
+  outline: none;
+}

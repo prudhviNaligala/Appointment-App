@@ -1,0 +1,96 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(#fbc7d4, #9897f0);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 80%;
+  border-radius: 8px;
+  flex-direction: column;
+  padding: 38px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 36px;
+  color: #171f46;
+}
+.input {
+  width: 100%;
+  height: 40px;
+  font-family: 'Roboto';
+  border: 1px solid #b5b7c4;
+  margin-bottom: 24px;
+  border-radius: 4px;
+  color: #131415;
+}
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+.label-txt {
+  font-family: 'Roboto';
+  color: #b5b7c4;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.btn {
+  height: 25px;
+  width: 50px;
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border-radius: 6px;
+  border: 1px;
+  margin-bottom: 24px;
+}
+.image {
+  height: 250px;
+  width: 350px;
+}
+.line {
+  width: 100%;
+}
+.star-container {
+  display: flex;
+  justify-content: space-between;
+}
+.title-star-container {
+  display: flex;
+}
+.un-order {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.filter-style {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  width: 100px;
+  height: 40px;
+  margin-top: 22px;
+}
+
+.filter-filled {
+  color: #ffffff;
+  background-color: #9897f0;
+}
+
+.filter-empty {
+  color: #9897f0;
+  background-color: white;
+  border: 1px solid #9897f0;
+}
